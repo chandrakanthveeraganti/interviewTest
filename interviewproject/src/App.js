@@ -1,11 +1,12 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
-import { TestComponent } from './TestComponent';
+import ParentComponent from './ParentComponent';
 
-function App() {
+const App =() => {
+
   return (
     <div className="App">
-      <TestComponent/>
+      <ParentComponent />
     </div>
   );
 }
